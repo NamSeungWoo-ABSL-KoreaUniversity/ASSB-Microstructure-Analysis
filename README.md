@@ -14,20 +14,23 @@ The following software/tools and prior works were used in this repository:
 
 ## Citation
 If you use this code in academic work, please cite the associated manuscript:
+
 Nam, S. W.; Shim, Y.; Lee, D.; Lee, G.-J.; Yeom, J.; Choi, E.; Kim, K.; Song, J.; Choi, S. H.; Cho, W.; Yoo, D.-J.
 "Unlocking the performance limits of composite electrodes in all-solid-state batteries through packing theory-guided design."
 Manuscript under review, 2026.
+
 (We will update this section with the final journal information and DOI upon publication.)
 
 ## License and third-party licenses
 This repository’s original code is released under the MIT License (see LICENSE).
 
 Note that some dependencies are licensed separately. For example:
+
 - Ultralytics YOLO: AGPL-3.0 (and Ultralytics states models trained with their code are AGPL-3.0 by default).
   - License: https://www.ultralytics.com/license
 - Meta Segment Anything 3 (SAM): SAM License (see LICENSE in the sam3 repository).
   - License: https://github.com/facebookresearch/sam3/blob/main/LICENSE
- - Roboflow Python package: Apache-2.0.
+- Roboflow Python package: Apache-2.0.
   - License: https://github.com/roboflow/roboflow-python/blob/main/LICENSE
 - SAHI: MIT.
   - License: https://pypi.org/project/sahi/
