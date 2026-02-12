@@ -1,0 +1,13 @@
+Tortuosity (SE = ion-conducting)
+================================
+Domain (µm): W=200.0, H=90.0
+Raster size : 6400 x 2880 px  (sx=32.000, sy=32.000 px/µm)
+phi_eff     : 0.310421
+tau_x       : 7.384292
+tau_y       : 5.655370
+D_eff_x     : 0.042038
+D_eff_y     : 0.054890
+F_x         : 23.788015
+F_y         : 18.218407
+solver_x    : compat
+solver_y    : compat

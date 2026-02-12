@@ -1,0 +1,18 @@
+Tortuosity (Void = ion-conducting)
+==================================
+Domain (µm): W=200.0, H=90.0
+Raster size : 2041 x 919 px  (sx=10.206, sy=10.206 px/µm)
+phi_eff     : 0.345445
+tau_x       : 3.139002
+tau_y       : 3.045851
+D_eff_x     : 0.110049
+D_eff_y     : 0.113415
+F_x         : 9.086834
+F_y         : 8.817180
+solver_x    : compat
+solver_y    : compat
+
+-- artificial gap (calc-only) --
+FORCE_MIN_GAP : False
+gap_r_px      : 0 px
+gap_r_um_est  : 0.000000 µm

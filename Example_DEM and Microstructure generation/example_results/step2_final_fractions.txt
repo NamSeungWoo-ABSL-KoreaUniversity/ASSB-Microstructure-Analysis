@@ -1,0 +1,7 @@
+===== Final Fractions (Step 2) =====
+Domain area         : 18000.000000 µm²
+CAM area (exclusive): 11888.671506 µm² (66.048%)
+SE  area (exclusive): 5622.458264 µm² (31.236%)
+CAM∩SE overlap      : 0.000000 µm² (0.000%)
+Void area (vector)  : 488.870229 µm² (2.716%)
+(target SE fraction, domain) : 0.312357 (31.236%)

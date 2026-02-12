@@ -1,0 +1,15 @@
+[info] SOURCE_MODE=CURRENT → using CURRENT (W0=200.000000, H0=200.000000)
+[open/scan] ε in [0.6, 1.4] μm, steps=9, area_limit=12.0% (hard 18.0%)
+[open/scan] ε=0.6 μm → OK | comps 976->1146 | ΔA=  2.39%
+[open/scan] ε=0.7 μm → OK | comps 976->1146 | ΔA=  2.78%
+[open/scan] ε=0.8 μm → OK | comps 976->1146 | ΔA=  3.18%
+[open/scan] ε=0.9 μm → OK | comps 976->1146 | ΔA=  3.57%
+[open/scan] ε=1 μm → OK | comps 976->1146 | ΔA=  3.96%
+[open/scan] ε=1.1 μm → OK | comps 976->1146 | ΔA=  4.35%
+[open/scan] ε=1.2 μm → OK | comps 976->1146 | ΔA=  4.75%
+[open/scan] ε=1.3 μm → OK | comps 976->1146 | ΔA=  5.14%
+[open/scan] ε=1.4 μm → OK | comps 976->1146 | ΔA=  5.53%
+✔ opening picked (largest_ok): ε*=1.4 μm | ΔA=5.53% | comps 976->1146
+✔ Domain height compressed to top of CAM: H = 105.904888 µm
+✂ Cropped domain to H = 90.000 µm
+Step 1 areas | CAM: 11888.67 (66.05%) | Void: 6111.33 (33.95%)

@@ -1,0 +1,242 @@
+{
+  "params": {
+    "run_folder": "200x200_4,4,1_0.4,0.4,0.2_NA_20251011-195505",
+    "domain_um": {
+      "width": 200.0,
+      "height": 200.0
+    },
+    "sizes_um": {
+      "D1": 4.0,
+      "D2": 4.0,
+      "D3": 1.0
+    },
+    "fractions": {
+      "f1": 0.4,
+      "f2": 0.4,
+      "f3": 0.2
+    },
+    "seed": null,
+    "rho": [
+      4.0,
+      4.0,
+      2.0
+    ],
+    "gravity": 0.000981,
+    "dem": {
+      "dt": 0.2,
+      "substeps": 4,
+      "collision_iters": 60,
+      "friction_mu": 0.05,
+      "restitution": 0.02,
+      "velocity_damping": 1.0,
+      "max_iter": 10000,
+      "penetration_tol": 1e-06,
+      "min_outer_steps": 1000,
+      "patience": 25
+    },
+    "env": {
+      "python": "3.10.10",
+      "numpy": "1.24.4",
+      "matplotlib": "3.10.0"
+    },
+    "run_hash": "8ca5dcc7132497b04b060c080b8f7076c8935135"
+  },
+  "stats": {
+    "A_dom": 40000.0,
+    "A_sol_final": 18001.325905069512,
+    "phi_s_eff_final": 0.4500331476267378,
+    "A1_final": 7200.5303620278055,
+    "A2_final": 7200.5303620278055,
+    "A3_final": 3600.2651810139027,
+    "f1_hat_final": 0.4,
+    "f2_hat_final": 0.4,
+    "f3_hat_final": 0.2,
+    "N_total": 5730,
+    "N_cam1": 573,
+    "N_cam2": 573,
+    "N_se": 4584
+  },
+  "snapshots": {
+    "dem_baseline_ycut": {
+      "source": "CURRENT",
+      "Y_CUT_um": 90.0,
+      "phi_eff_union": 0.8698910774380211,
+      "phi_cam_exclusive": 0.6991254244045759,
+      "phi_se_exclusive": 0.1707593664104033,
+      "phi_overlap": 6.2866230418136075e-06,
+      "Ra_um": 1.0564630760020115,
+      "Rq_um": 1.2966896580359997,
+      "Rpv_um": 6.3100672954969355,
+      "phi_full_0_to_H": 0.45002108213697145
+    },
+    "step2_final": {
+      "domain_width_um": 200.0,
+      "domain_height_um": 90.0,
+      "areas_um2": {
+        "domain": 18000.0,
+        "cam_exclusive": 11888.671506466206,
+        "se_exclusive": 5622.458264264755,
+        "overlap_cam_se": 0.0,
+        "void_vector": 488.87022926919235
+      },
+      "fractions_domain_vector": {
+        "cam_exclusive": 0.6604817503592336,
+        "se_exclusive": 0.31235879245915305,
+        "overlap_cam_se": 0.0,
+        "void": 0.0271594571816218,
+        "target_se": 0.3123567896694988
+      },
+      "fractions_domain_raster": {
+        "cam": 0.663823607344327,
+        "se": 0.3237025098644278,
+        "void": 0.012473882791245196
+      },
+      "files": {
+        "snapshot_png": "step2_snapshot.png",
+        "final_dxf": null,
+        "final_txt": "step2_final_fractions.txt"
+      }
+    }
+  },
+  "post_dem_steps": {
+    "step1_opening_v2": {
+      "source": "CURRENT",
+      "method": "asym_open",
+      "selected": {
+        "strategy": "largest_ok",
+        "eps": 1.4,
+        "drop_pct": 5.525410255582441,
+        "comps_before": 976,
+        "comps_after": 1022,
+        "epsilon_range": {
+          "lo": 0.6,
+          "hi": 1.4,
+          "steps": 9
+        },
+        "prefer_splits": true
+      },
+      "params": {
+        "BUF_RES": 64,
+        "OPEN_RES": 128,
+        "INJECT_CAM_GAPS": true,
+        "GAP_UNITS": "um",
+        "CAM_GAP_EPS": 1.2,
+        "ASYM_GROW_RATIO": 0.96,
+        "USE_EPS_SCAN": true,
+        "EPS_SCAN_LO": 0.6,
+        "EPS_SCAN_HI": 1.4,
+        "EPS_SCAN_STEPS": 9,
+        "MAX_AREA_DROP_PCT": 12.0,
+        "HARD_MAX_DROP_PCT": 18.0,
+        "SELECT_EPS_STRATEGY": "largest_ok",
+        "PREFER_SPLITS": true,
+        "DO_TOP_COMPRESS": true,
+        "Y_CROP_UM": 90.0,
+        "APPLY_CAM_SHRINK": false,
+        "CAM_SHRINK_EPS": 0.0,
+        "SHRINK_RES": 64
+      },
+      "areas_um2": {
+        "A_total": 18000.0,
+        "A_cam": 11888.671506466204,
+        "A_void": 6111.328493533796
+      },
+      "files": {
+        "png": {
+          "before": "step1_gap_before.png",
+          "after": "step1_gap_after.png",
+          "delta_removed_on_after": "step1_gap_delta_removed_on_after.png",
+          "symdiff": "step1_gap_delta_symdiff.png",
+          "top_compress": "step1_top_compress.png",
+          "cropped": "step1_cropped.png",
+          "final": "step1_final.png"
+        },
+        "log": "step1_opening_v2_report.txt"
+      }
+    }
+  },
+  "tortuosity": {
+    "void_conducting": {
+      "domain_um": {
+        "W": 200.0,
+        "H": 90.0
+      },
+      "raster": {
+        "width_px": 2041,
+        "height_px": 919,
+        "sx": 10.206207261596576,
+        "sy": 10.206207261596576,
+        "super_sample": 8,
+        "pool_thresh": 0.65
+      },
+      "results": {
+        "phi_eff": 0.34544503617090133,
+        "tau_x": 3.1390015473994435,
+        "tau_y": 3.0458511514498032,
+        "D_eff_x": 0.11004933605626634,
+        "D_eff_y": 0.11341494347367302,
+        "F_x": 9.086833558802365,
+        "F_y": 8.817180253077758,
+        "touch": {
+          "left": true,
+          "right": true,
+          "top": true,
+          "bottom": true
+        },
+        "solver": {
+          "x": "compat",
+          "y": "compat"
+        }
+      },
+      "artificial_gap": {
+        "enabled": false,
+        "gap_r_px": 0,
+        "gap_r_um_est": 0.0
+      },
+      "auto_res": {
+        "epsilon_um": 1.4,
+        "pix_per_um": 10.206207261596576,
+        "hires_cap_Mpx": 120.0,
+        "raster_cap_Mpx": 6.0
+      },
+      "files": {
+        "phase_map": "phase_map_void_conducting.png",
+        "viz": "tortuosity_void_conducting.png",
+        "bar": "directional_diffusivity_void.png",
+        "text": "tortuosity_results_void_conducting.txt",
+        "masks_npz": "void_conducting_masks.npz"
+      }
+    },
+    "se_conducting": {
+      "domain_um": {
+        "W": 200.0,
+        "H": 90.0
+      },
+      "raster": {
+        "width_px": 6400,
+        "height_px": 2880,
+        "sx": 32.0,
+        "sy": 32.0,
+        "super_sample": 8
+      },
+      "results": {
+        "phi_eff": 0.3104206814236111,
+        "tau_x": 7.3842919021583935,
+        "tau_y": 5.655370225517822,
+        "D_eff_x": 0.04203797541276458,
+        "D_eff_y": 0.054889541983113604,
+        "F_x": 23.788015245290715,
+        "F_y": 18.218406710473978,
+        "solver": {
+          "x": "compat",
+          "y": "compat"
+        }
+      },
+      "files": {
+        "phase_map": "phase_map_SE_conducting.png",
+        "viz": "tortuosity_SE_conducting.png",
+        "text": "tortuosity_results_SE_conducting.txt"
+      }
+    }
+  }
+}
