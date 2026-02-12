@@ -1,0 +1,9 @@
+===== Packing / Surface metrics — y-cut =====
+Source = CURRENT
+Y_CUT = 90.0000 µm (0 ≤ y ≤ Y_CUT)
+φ_eff (union)      = 86.989%
+├─ φ_CAM_exclusive = 69.913%
+├─ φ_SE_exclusive  = 17.076%
+└─ φ_overlap       = 0.001%   (ideal ~0%)
+Ra = 1.0565 µm,  Rq = 1.2967 µm,  P–V = 6.3101 µm
+(ref) φ_full (0–H_box) = 45.002%
