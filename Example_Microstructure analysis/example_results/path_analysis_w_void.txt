@@ -1,0 +1,4 @@
+Path Analysis Results (SE)
+Direct distance: 2187.00 pixels
+Actual path length: 2917.30 pixels
+Local tortuosity: 1.3339
